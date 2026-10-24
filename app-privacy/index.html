@@ -1,0 +1,363 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#071327"><meta
+    name="description"
+    content="Find privacy policies for mobile apps and digital products published by PRANSBO Tech Corp."
+>
+
+<title>App Privacy Policies | PRANSBO Tech Corp</title>
+
+<style>
+    :root {
+        --background: #071327;
+        --surface: #101f36;
+        --surface-hover: #152943;
+        --text: #f2f6fc;
+        --muted: #a8b7ca;
+        --accent: #52d6a1;
+        --border: rgba(255, 255, 255, 0.1);
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--background);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.7;
+    }
+
+    a {
+        color: inherit;
+    }
+
+    .wrap {
+        width: min(100% - 36px, 1000px);
+        margin-inline: auto;
+    }
+
+    header {
+        border-bottom: 1px solid var(--border);
+    }
+
+    .nav {
+        min-height: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .brand {
+        text-decoration: none;
+        font-size: 1.05rem;
+        font-weight: 800;
+        letter-spacing: 0.03em;
+    }
+
+    .brand span {
+        color: var(--accent);
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .nav-links a {
+        color: var(--muted);
+        font-size: 0.92rem;
+        text-decoration: none;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+        color: var(--accent);
+    }
+
+    .hero {
+        padding-top: 76px;
+        padding-bottom: 42px;
+    }
+
+    .eyebrow {
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        max-width: 750px;
+        margin: 12px 0 18px;
+        font-size: clamp(2.2rem, 6vw, 4rem);
+        line-height: 1.12;
+    }
+
+    .intro {
+        max-width: 680px;
+        color: var(--muted);
+        font-size: 1.05rem;
+    }
+
+    .notice {
+        margin-top: 28px;
+        padding: 16px 18px;
+        border: 1px solid var(--border);
+        border-left: 4px solid var(--accent);
+        border-radius: 10px;
+        background: var(--surface);
+        color: var(--muted);
+    }
+
+    .section-heading {
+        margin: 36px 0 20px;
+        font-size: 1.5rem;
+    }
+
+    .policy-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+        padding-bottom: 70px;
+    }
+
+    .policy-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: var(--surface);
+        transition:
+            background 160ms ease,
+            border-color 160ms ease,
+            transform 160ms ease;
+    }
+
+    .policy-card:hover {
+        background: var(--surface-hover);
+        border-color: rgba(82, 214, 161, 0.45);
+        transform: translateY(-2px);
+    }
+
+    .status {
+        margin-bottom: 12px;
+        color: var(--accent);
+        font-size: 0.75rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+    }
+
+    .policy-card h3 {
+        margin: 0 0 10px;
+        font-size: 1.25rem;
+    }
+
+    .policy-card p {
+        margin: 0 0 20px;
+        color: var(--muted);
+    }
+
+    .policy-link {
+        margin-top: auto;
+        color: var(--accent);
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .policy-link:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+        padding: 24px 0;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 0.9rem;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .footer-links a {
+        text-decoration: none;
+    }
+
+    .footer-links a:hover {
+        color: var(--accent);
+    }
+
+    @media (max-width: 650px) {
+        .nav {
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+            padding-block: 18px;
+        }
+
+        .nav-links {
+            gap: 12px 18px;
+        }
+
+        .hero {
+            padding-top: 48px;
+        }
+
+        .policy-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+</head><body><header>
+    <div class="wrap nav">
+        <a class="brand" href="../index.html">
+            PRANSBO <span>Tech Corp</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="wrap hero">
+        <div class="eyebrow">Privacy &amp; transparency</div>
+
+        <h1>App Privacy Policies</h1>
+
+        <p class="intro">
+            Find privacy information for applications and digital
+            products developed or published by PRANSBO Tech Corp.
+            Each policy describes the relevant product's information
+            handling practices.
+        </p>
+
+        <div class="notice">
+            Each app has its own features and data practices.
+            Please read the policy for the specific app you use.
+            Policies will be published here as they are prepared
+            and verified.
+        </div>
+
+        <h2 class="section-heading">Our applications</h2>
+    </section>
+
+    <section class="wrap policy-grid" aria-label="Application policies">
+
+        <article class="policy-card">
+            <div class="status">Policy available</div>
+
+            <h3>Ancient Warfare Atlas</h3>
+
+            <p>
+                An offline historical reference app covering
+                commanders, battles, empires, and military strategies.
+            </p>
+
+            <a
+                class="policy-link"
+                href="ancient-warfare-atlas.html"
+            >
+                Read privacy policy →
+            </a>
+        </article>
+
+        <article class="policy-card">
+            <div class="status">Coming soon</div>
+
+            <h3>CloudTok</h3>
+
+            <p>
+                A video-sharing platform. Its privacy policy will
+                describe its account, content, and data practices.
+            </p>
+
+            <span class="muted">
+                Policy not yet published
+            </span>
+        </article>
+
+        <article class="policy-card">
+            <div class="status">Coming soon</div>
+
+            <h3>MotionForge</h3>
+
+            <p>
+                A 3D model and motion-capture tool. Its policy will
+                address the relevant project and media features.
+            </p>
+
+            <span class="muted">
+                Policy not yet published
+            </span>
+        </article>
+
+        <article class="policy-card">
+            <div class="status">Coming soon</div>
+
+            <h3>KudiDeals</h3>
+
+            <p>
+                A deals and offers platform. Its policy will reflect
+                the information handled by the deployed service.
+            </p>
+
+            <span class="muted">
+                Policy not yet published
+            </span>
+        </article>
+
+    </section>
+</main>
+
+<footer>
+    <div class="wrap footer-content">
+        <span>
+            &copy; <span id="year">2026</span>
+            PRANSBO Tech Corp. All rights reserved.
+        </span>
+
+        <div class="footer-links">
+            <a href="../privacy.html">Website Privacy</a>
+            <a href="../contact.html">Contact</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("year").textContent =
+        new Date().getFullYear();
+</script>
+
+</body>
+</html>
